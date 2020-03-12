@@ -431,7 +431,7 @@ sub get_dist_for_fig{
                    }
              
                 }
-           }elsif($line[0] =~ /rs/){
+           }elsif($line[0] =~ /rs/ || $line[0] =~ /:/ || $line[0] =~ /_/){
               last;
            }
         }
